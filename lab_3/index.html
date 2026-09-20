@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна номер 3</title>
+<style>
+        /* Додаткові стилі для дотримання вимог до розмірів */
+        .logo {
+            height: 300px;
+        }
+        .video-player {
+            height: 540px;
+            width: 80%;
+            display: block;
+        }
+        .btn-subscribe {
+            padding: 8px 16px;
+            background-color: #0f0f0f;
+            color: white;
+            border: none;
+            border-radius: 18px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
 
+    <!-- 4.4. Заголовок H1 з назвою youtube-каналу навчального закладу -->
+    <h1>
+        <a href="https://www.youtube.com/@itcollegelviv" target="_blank">
+            ІТ коледж Львівської політехніки
+        </a>
+    </h1>
+
+    <main>
+        <!-- 4.5. Перша секція: логотип коледжу висотою 300px -->
+        <section>
+            <h2>Логотип коледжу</h2>
+            <img src="logo.png" alt="Логотип ІТ коледжу Львівської політехніки" class="logo">
+        </section>
+
+        <!-- 4.6. Друга секція: опис та кнопка "Підписатися" -->
+        <section>
+            <h2>Інформація про канал</h2>
+            <p>@itcollegelviv · Підписалося 105 користувачів · 58 відео</p>
+            <p>ІТ коледж Львівської політехніки ...більше</p>
+            <p><a href="http://itcollege.lviv.ua" target="_blank">itcollege.lviv.ua</a> і ще 2 посилання</p>
+            <button class="btn-subscribe">Підписатися</button>
+        </section>
+
+        <!-- 4.7. Третя секція: заголовок h2 і довільне коротке відео .mp4 (висота 540px, ширина 80%) -->
+        <section>
+            <h2>Відеоогляд / Подкаст</h2>
+            <video controls class="video-player">
+                <source src="video.mp4" type="video/mp4">
+                Ваш браузер не підтримує відтворення відео.
+            </video>
+        </section>
+
+        <!-- 4.8. Четверта секція: заголовок h2 і довільний аудіо файл -->
+        <section>
+            <h2>Аудіозапис</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Ваш браузер не підтримує відтворення аудіо.
+            </audio>
+        </section>
+
+        <!-- 4.9. П'ята секція: заголовок h2 і вставлене YouTube-відео (iframe) -->
+        <section>
+            <h2>Відео з YouTube</h2>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+            <p>
+                Перейти на YouTube: 
+                <a href="https://www.youtube.com/" target="_blank">https://www.youtube.com/</a>
+            </p>
+        </section>
+</maim>
+</body>
+</html>
