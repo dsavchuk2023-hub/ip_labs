@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Global Adventures Blog</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+    <header>
+        <h1>Зв'яжіться з нами <span role="img" aria-label="лист">✉️</span></h1>
+        <p>Маєте запитання, пропозиції чи хочете поділитися власними враженнями від подорожей? Напишіть нам!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="kyiv.html">Київ</a></li>
+            <li><a href="tokyo.html">Токіо</a></li>
+            <li><a href="paris.html">Париж</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+            <li><a href="subscribe.html">Підписка</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contact-section">
+            <h2>Форма зворотного зв'язку</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Ваше ім'я:</label><br>
+                    <input type="text" id="name" name="user_name" placeholder="Олександр" required>
+                </p>
+                <p>
+                    <label for="email">Ваш Email:</label><br>
+                    <input type="email" id="email" name="user_email" placeholder="example@mail.com" required>
+                </p>
+                <p>
+                    <label for="subject">Тема повідомлення:</label><br>
+                    <input type="text" id="subject" name="user_subject" placeholder="Співпраця / Запитання">
+                </p>
+                <p>
+                    <label for="message">Повідомлення:</label><br>
+                    <textarea id="message" name="user_message" rows="5" placeholder="Напишіть ваше повідомлення тут..." required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Надіслати повідомлення</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2035 Global Adventures Blog. Всі права захищено.</p>
+    </footer>
+
+</body>
+</html>
