@@ -1,5 +1,5 @@
 .events-section, header {
-  background-color: #112255; /* Темно-синій фон сторінки/шапки */
+  background-color: #112255;
   padding: 40px 20px;
   font-family: sans-serif;
   color: #ffffff;
@@ -20,7 +20,7 @@
 .field-content > a {
   display: flex;
   flex-direction: column;
-  background-color: #a0bed8; /* Світло-блакитний фон картки */
+  background-color: #a0bed8;
   color: #1a1a1a;
   text-decoration: none;
   border-radius: 4px;
