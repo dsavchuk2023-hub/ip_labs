@@ -1,61 +1,336 @@
-.events-section, header {
-  background-color: #112255;
-  padding: 40px 20px;
-  font-family: sans-serif;
-  color: #ffffff;
+ts_container {
+    padding: 3rem 0 3rem 0;
 }
-
-.views-row, .row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
+#events_container {
+    background: #252775;
+    padding: 3rem 0 0 0;
 }
-.views-col, .col-lg-2 {
-  flex: 1 1 180px;
-  max-width: 210px;
-  min-width: 170px;
+#block-lpnu-main-menu, .region-sidebar-second, .logo, .page-header, #hero, #block-lpnushortcutstop4, #featured_container h2, #events_container, .news_teaser, .block-views-blockfront-page-news-block-3 h2, .paragraph--type--person-with-description .field--name-field-person-name, .view-header h1 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
 }
-
-.field-content > a {
-  display: flex;
-  flex-direction: column;
-  background-color: #a0bed8;
-  color: #1a1a1a;
-  text-decoration: none;
-  border-radius: 4px;
-  overflow: hidden;
-  height: 100%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  transition: transform 0.2s ease;
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
 }
-
-.field-content > a:hover {
-  transform: translateY(-4px);
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-.field-content img {
-  width: 100%;
-  height: 130px;
-  object-fit: cover;
-  display: block;
+таблиця стилів агента користувача
+header {
+    display: block;
 }
-
-.event_date {
-  background-color: #b5d1e6;
-  padding: 10px 8px;
-  font-size: 0.8rem;
-  text-align: center;
-  border-bottom: 1px solid #8cb4d0;
-  font-weight: 500;
-  color: #222;
+.fontyourface {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
 }
-
-.field-content h3 {
-  padding: 12px 10px;
-  font-size: 0.85rem;
-  line-height: 1.35;
-  margin: 0;
-  flex-grow: 1;
-  color: #111;
+body {
+    font-size: 1.6rem;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+{
+    color: #fff;
+    transition: color 2s ease-out,border-bottom 2s ease-out;
+    border-bottom: 2px solid #fff;
+}
+a:link {
+    color: #0076A8;
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+таблиця стилів агента користувача
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media only screen and (min-width: 1200px)
+#events_container h2, #block-views-block-front-page-news-block-3 h2 {
+    font-size: 2.8rem;
+}
+@media only screen and (min-width: 768px)
+#events_container h2 {
+    margin: 15px 0 30px 0;
+    font-size: 2.4rem;
+}
+@media only screen and (min-width: 480px)
+#events_container h2, #block-views-block-front-page-news-block-3 h2 {
+    font-size: 2.4rem;
+}
+#events_container h2 {
+    margin: 0 0 30px 0;
+    font-size: 2rem;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+таблиця стилів агента користувача
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#block-lpnu-main-menu, .region-sidebar-second, .logo, .page-header, #hero, #block-lpnushortcutstop4, #featured_container h2, #events_container, .news_teaser, .block-views-blockfront-page-news-block-3 h2, .paragraph--type--person-with-description .field--name-field-person-name, .view-header h1 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+}
+.fontyourface {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-size: 1.6rem;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ts_container h3 {
+    padding: 15px;
+    margin: 0;
+    font-size: 1.8rem;
+    background: #f6f6f6;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+таблиця стилів агента користувача
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+a:link {
+    color: #0076A8;
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+таблиця стилів агента користувача
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+#block-lpnu-main-menu, .region-sidebar-second, .logo, .page-header, #hero, #block-lpnushortcutstop4, #featured_container h2, #events_container, .news_teaser, .block-views-blockfront-page-news-block-3 h2, .paragraph--type--person-with-description .field--name-field-person-name, .view-header h1 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+}
+.fontyourface {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-size: 1.6rem;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img {
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    transition: opacity 2s ease-out;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img[Стиль атрибутів] {
+    width: 345px;
+    aspect-ratio: auto 345 / 229;
+    height: 229px;
+}
+таблиця стилів агента користувача
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+a:link {
+    color: #0076A8;
+    text-decoration: none;
+    transition: color 0.5s ease-out;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+таблиця стилів агента користувача
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+#block-lpnu-main-menu, .region-sidebar-second, .logo, .page-header, #hero, #block-lpnushortcutstop4, #featured_container h2, #events_container, .news_teaser, .block-views-blockfront-page-news-block-3 h2, .paragraph--type--person-with-description .field--name-field-person-name, .view-header h1 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+}
+.fontyourface {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-size: 1.6rem;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
