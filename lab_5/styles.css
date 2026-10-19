@@ -76,8 +76,8 @@ body {
 .field-content > a {
     display: flex;
     flex-direction: column;
-    background-color: #a0bed8;
-    color: #1a1a1a;
+    background-color: #fff;
+    color: #0076A8;
     text-decoration: none;
     border-radius: 4px;
     overflow: hidden;
@@ -103,22 +103,23 @@ body {
 }
 
 .event_date {
-    background-color: #b5d1e6;
+    background-color: #f6f6f6;
     padding: 10px 8px;
     font-size: 1.2rem;
     text-align: center;
-    border-bottom: 1px solid #8cb4d0;
-    font-weight: 500;
-    color: #222;
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+    color: #333;
 }
 
 .field-content h3, h3 {
     margin: 0;
-    padding: 12px 10px;
-    font-size: 1.4rem;
-    line-height: 1.35;
-    font-weight: 500;
-    color: #111;
-    background: transparent;
+    padding: 15px;
+    font-size: 1.8rem;
+    line-height: 1.1;
+    font-weight: normal;
+    color: #333;
+    background: #f6f6f6;
     flex-grow: 1;
+    font-family: 'Roboto Condensed', sans-serif;
 }
