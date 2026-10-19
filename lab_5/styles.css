@@ -1,5 +1,9 @@
-ts_container {
-    padding: 3rem 0 3rem 0;
+element.style {
+}
+@media only screen and (min-width: 992px) {
+    #events_container {
+        padding: 3rem 0 3rem 0;
+    }
 }
 #events_container {
     background: #252775;
@@ -18,9 +22,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-таблиця стилів агента користувача
+user agent stylesheet
 header {
     display: block;
+    unicode-bidi: isolate;
 }
 .fontyourface {
     font-family: 'Roboto';
@@ -31,7 +36,7 @@ body {
     font-size: 1.6rem;
 }
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -39,7 +44,7 @@ body {
 }
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 html {
     font-family: sans-serif;
@@ -56,45 +61,14 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-{
-    color: #fff;
-    transition: color 2s ease-out,border-bottom 2s ease-out;
-    border-bottom: 2px solid #fff;
+<style>
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DRs5.woff2) format('woff2');
+    unicode-range: U +0460 -052F, U +1C80 -1C8A, U +20B4, U +2DE0 -2DFF, U + A640-A69F, U + FE2E-FE2F;
 }
-a:link {
-    color: #0076A8;
-    text-decoration: none;
-    transition: color 0.5s ease-out;
-}
-a {
-    text-decoration: none;
-}
-a {
-    color: #337ab7;
-    text-decoration: none;
-}
-a {
-    background-color: transparent;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-таблиця стилів агента користувача
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-@media only screen and (min-width: 1200px)
-#events_container h2, #block-views-block-front-page-news-block-3 h2 {
-    font-size: 2.8rem;
-}
-@media only screen and (min-width: 768px)
-#events_container h2 {
-    margin: 15px 0 30px 0;
-    font-size: 2.4rem;
 }
 @media only screen and (min-width: 480px)
 #events_container h2, #block-views-block-front-page-news-block-3 h2 {
@@ -500,3 +474,4 @@ html {
     src: url(https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DRs5.woff2) format('woff2');
     unicode-range: U +0460 -052F, U +1C80 -1C8A, U +20B4, U +2DE0 -2DFF, U + A640-A69F, U + FE2E-FE2F;
 }
+
