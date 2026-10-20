@@ -43,7 +43,7 @@ body {
     text-align: center;
     color: #fff !important;
     font-family: 'Roboto Condensed', sans-serif;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 480px) {
