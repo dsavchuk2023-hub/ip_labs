@@ -1,4 +1,4 @@
-/* 1. Скидання стилів */
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -12,7 +12,6 @@ body {
     line-height: 1.6;
 }
 
-/* Загальні класи */
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -28,7 +27,6 @@ ul {
     list-style: none;
 }
 
-/* Кнопки */
 .btn {
     display: inline-block;
     padding: 12px 28px;
@@ -52,7 +50,6 @@ ul {
     margin-left: 12px;
 }
 
-/* Header */
 .header {
     padding: 20px 0;
     border-bottom: 1px solid #eaeaea;
@@ -87,7 +84,6 @@ ul {
     color: #FF6B6B;
 }
 
-/* Hero Section (Flexbox & Auto Layout аналог) */
 .hero {
     padding: 80px 0;
 }
@@ -133,7 +129,6 @@ ul {
     height: auto;
 }
 
-/* Footer */
 .footer {
     padding: 40px 0;
     background-color: #f9f9f9;
