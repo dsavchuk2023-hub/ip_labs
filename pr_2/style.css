@@ -55,9 +55,7 @@ body {
     background-color: #FFFFFF;
     width: 100%;
     max-width: 360px;
-    min-height: 1496px;
     margin: 0 auto;
-    padding: 24px 0;
 }
 
 .features img {
@@ -76,4 +74,10 @@ body {
     color: #777777;
     font-size: 13px;
     border-top: 1px solid #eaeaea;
+}
+.footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
 }
