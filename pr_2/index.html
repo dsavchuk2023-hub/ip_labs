@@ -3,21 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PETWORLD — Pet Store & Beyond</title>
-    <!-- Підключення шрифту Poppins з Google Fonts -->
+    <title>PETWORLD — Pet Store &amp; Beyond</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Підключення стилів згідно з методичкою -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Top Bar -->
     <header class="top-bar">
         <div class="container top-bar__inner">
             <a href="#" class="logo">
-                <img src="assets/logo.svg" alt="Petworld logo" class="logo__icon">
+                <img src="assets/Logo (1).svg" alt="Petworld logo" class="logo__icon">
                 <span class="logo__text">PETWORLD</span>
             </a>
             <nav class="auth-nav">
@@ -27,74 +24,55 @@
         </div>
     </header>
 
-    <!-- Основний контент -->
     <main>
-        <!-- Hero Section -->
         <section class="hero">
             <div class="container hero__inner">
                 <h1 class="hero__title">Pet Store &amp; Beyond</h1>
                 <p class="hero__subtitle">
-                    Fresh ingredients slowly baked into our super delicious food. 
+                    Fresh ingredients slowly baked into our super delicious food.
                     Available in a range of delicious flavours, delivered to your door.
                 </p>
                 <a href="#features" class="btn btn--yellow">Get Started</a>
             </div>
         </section>
 
-        <!-- Video Section -->
         <section class="video-section">
             <div class="container">
-                <div class="video-wrapper">
-                    <img src="assets/video-preview.png" alt="Dog video preview" class="video-wrapper__img">
-                    <button class="video-play-btn" aria-label="Play video">
-                        <img src="assets/play-icon.svg" alt="Play">
-                    </button>
+                <div class="video-box">
+                    <img src="assets/Video.svg" alt="Dog video preview" class="video-box__media">
                 </div>
             </div>
         </section>
 
-        <!-- Features Section -->
         <section class="features" id="features">
             <div class="container">
                 <div class="features__grid">
-                    <!-- Картка 1 -->
                     <article class="feature-card">
-                        <div class="feature-card__icon-box">
-                            <img src="assets/icon-bone.svg" alt="Best quality pet food">
-                        </div>
+                        <img src="assets/Pet food icon.svg" alt="Best quality pet food" class="feature-card__icon">
                         <h3 class="feature-card__title">Best quality pet food</h3>
                         <p class="feature-card__text">
                             Super delicious food. Available in a range of delicious flavors.
                         </p>
                     </article>
 
-                    <!-- Картка 2 -->
                     <article class="feature-card">
-                        <div class="feature-card__icon-box">
-                            <img src="assets/icon-ball.svg" alt="Toys & Accessories">
-                        </div>
+                        <img src="assets/Accessories icon.svg" alt="Toys & Accessories" class="feature-card__icon">
                         <h3 class="feature-card__title">Toys &amp; Accessories</h3>
                         <p class="feature-card__text">
                             Soft toys, chew toys, and rope toys. Strong, interactive, and fun.
                         </p>
                     </article>
 
-                    <!-- Картка 3 -->
                     <article class="feature-card">
-                        <div class="feature-card__icon-box">
-                            <img src="assets/icon-medical.svg" alt="Pets medical care">
-                        </div>
+                        <img src="assets/Medical icon.svg" alt="Pets medical care" class="feature-card__icon">
                         <h3 class="feature-card__title">Pets medical care</h3>
                         <p class="feature-card__text">
                             You can get a wide range of great treatments for your dog.
                         </p>
                     </article>
 
-<!-- Картка 4 -->
                     <article class="feature-card">
-                        <div class="feature-card__icon-box">
-                            <img src="assets/icon-grooming.svg" alt="Full service grooming">
-                        </div>
+                        <img src="assets/Grooming icon.svg" alt="Full service grooming" class="feature-card__icon">
                         <h3 class="feature-card__title">Full service grooming</h3>
                         <p class="feature-card__text">
                             It's the right time to groom your dog with a variety of treatments.
@@ -104,68 +82,65 @@
             </div>
         </section>
 
-        <!-- User Feedback Section -->
         <section class="feedback">
-            <div class="container feedback__inner">
-                <img src="assets/quotes.svg" alt="Quote" class="feedback__quotes">
+<div class="container feedback__inner">
+                <img src="assets/Quote icon.svg" alt="Quote" class="feedback__quotes">
                 <blockquote class="feedback__text">
-                    We love using 'PETWORLD' products. Environmentally friendly and sustainable. 
-                    We have the sustainable dog bowls and regularly use the mint scented poo bags 
+                    We love using 'PETWORLD' products. Environmentally friendly and sustainable.
+                    We have the sustainable dog bowls and regularly use the mint scented poo bags
                     which were all such great value for money.
                 </blockquote>
-                <cite class="feedback__author">Dylan Shaw</cite>
+                <img src="assets/Dylan Shaw.svg" alt="Dylan Shaw" class="feedback__author">
             </div>
         </section>
 
-        <!-- CTA Section -->
         <section class="cta">
             <div class="container cta__inner">
                 <h2 class="cta__title">Let’s talk, woof!</h2>
                 <p class="cta__subtitle">
                     You can ask us questions about your pet, and we will be happy to answer you!
                 </p>
-                <a href="#contact" class="btn btn--yellow">Contact us</a>
+                <a href="#footer" class="btn btn--yellow">Contact us</a>
             </div>
         </section>
 
-        <!-- Logos Section -->
         <section class="logos">
             <div class="container logos__inner">
-                <!-- Можна вставити як окремі <img> в flex-контейнері або єдиним SVG/PNG -->
                 <div class="logos__row">
-                    <img src="assets/logo-nestle.svg" alt="Nestle">
-                    <img src="assets/logo-apple.svg" alt="Apple">
-                    <img src="assets/logo-beco.svg" alt="Beco">
-                    <img src="assets/logo-amazon.svg" alt="Amazon">
-                    <img src="assets/logo-google.svg" alt="Google">
-                    <img src="assets/logo-walmart.svg" alt="Walmart">
+                    <img src="assets/Nestle.svg" alt="Nestle">
+                    <img src="assets/Apple.svg" alt="Apple">
+                    <img src="assets/Beco.svg" alt="Beco">
+                    <img src="assets/Amazon.svg" alt="Amazon">
+                    <img src="assets/Google.svg" alt="Google">
+                    <img src="assets/Walmart.svg" alt="Walmart">
                 </div>
                 <div class="logos__row">
-                    <img src="assets/logo-aol.svg" alt="Aol.">
-                    <img src="assets/logo-petco.svg" alt="Petco">
-                    <img src="assets/logo-goodhousekeeping.svg" alt="Good Housekeeping">
-                    <img src="assets/logo-dhl.svg" alt="DHL">
+                    <img src="assets/Aol.svg" alt="Aol.">
+                    <img src="assets/Petco.svg" alt="Petco">
+                    <img src="assets/Good Housekeeping.svg" alt="Good Housekeeping">
+                    <img src="assets/DHL.svg" alt="DHL">
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container footer__inner">
             <a href="#" class="logo">
-                <img src="assets/logo.svg" alt="Petworld logo" class="logo__icon">
+                <img src="assets/Logo (2).svg" alt="Petworld logo" class="logo__icon">
                 <span class="logo__text">PETWORLD</span>
             </a>
+
             <div class="footer__links">
                 <span>&copy; PETWORLD 2022</span>
                 <a href="#">Privacy policy</a>
                 <a href="#">Terms of use</a>
             </div>
+
             <div class="footer__socials">
-                <a href="#" aria-label="Facebook"><img src="assets/social-fb.svg" alt="Facebook"></a>
-                <a href="#" aria-label="LinkedIn"><img src="assets/social-in.svg" alt="LinkedIn"></a>
-                <a href="#" aria-label="Instagram"><img src="assets/social-ig.svg" alt="Instagram"></a>
-                <a href="#" aria-label="Twitter"><img src="assets/social-tw.svg" alt="Twitter"></a>
+                <a href="#" aria-label="Social links">
+                    <img src="assets/Socials icons.svg" alt="Socials">
+                </a>
             </div>
         </div>
     </footer>
