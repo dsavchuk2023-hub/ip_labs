@@ -28,7 +28,6 @@ a {
     border-radius: 10px;
     font-size: 18px;
     font-weight: 500;
-    transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .btn:hover {
@@ -270,7 +269,6 @@ a {
 .logos-row img {
     max-height: 36px;
     width: auto;
-    opacity: 0.85;
 }
 
 .footer {
