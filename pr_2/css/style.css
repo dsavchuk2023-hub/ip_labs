@@ -21,7 +21,6 @@ a {
     padding: 0 20px;
 }
 
-/* Кнопки */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -37,19 +36,18 @@ a {
     transform: translateY(-1px);
 }
 
-.btn--blue {
+.btn-blue {
     background-color: #3366ff;
     color: #ffffff;
     padding: 12px 36px;
 }
 
-.btn--yellow {
+.btn-yellow {
     background-color: #f8d57e;
     color: #2d2d2d;
     padding: 16px 40px;
 }
 
-/* Top Bar */
 .top-bar {
     background-color: #ffffff;
     padding: 24px 0;
@@ -95,7 +93,6 @@ a {
     text-decoration: underline;
 }
 
-/* Hero Section */
 .hero {
     background-color: #f7f5fd;
     padding: 100px 0;
@@ -125,7 +122,6 @@ a {
     margin-bottom: 40px;
 }
 
-/* Video Section */
 .video-section {
     background-color: #f2faf8;
     padding: 80px 0;
@@ -145,7 +141,6 @@ a {
     height: auto;
 }
 
-/* Features Section */
 .features {
     background-color: #ffffff;
     padding: 100px 0;
@@ -191,7 +186,6 @@ a {
     color: #8c8c8c;
 }
 
-/* User Feedback Section */
 .feedback {
     background-color: #ebf5f3;
     padding: 90px 0;
@@ -224,7 +218,6 @@ a {
     width: auto;
 }
 
-/* CTA Section */
 .cta {
     background-color: #fcf9f2;
     padding: 100px 0;
@@ -254,7 +247,6 @@ a {
     margin-bottom: 40px;
 }
 
-/* Logos Section */
 .logos {
     background-color: #ffffff;
     padding: 80px 0;
@@ -281,7 +273,6 @@ a {
     opacity: 0.85;
 }
 
-/* Footer */
 .footer {
     background-color: #ffffff;
     border-top: 1px solid #f0f0f0;
