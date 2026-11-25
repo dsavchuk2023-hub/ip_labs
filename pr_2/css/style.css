@@ -192,20 +192,20 @@ a {
     text-align: center;
 }
 
-.feedback__inner {
+.feedback-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 760px;
 }
 
-.feedback__quotes {
+.feedback-quotes {
     width: 48px;
     height: auto;
     margin-bottom: 24px;
 }
 
-.feedback__text {
+.feedback-text {
     font-size: 18px;
     font-weight: 600;
     line-height: 32px;
@@ -213,7 +213,7 @@ a {
     margin-bottom: 32px;
 }
 
-.feedback__author {
+.feedback-author {
     height: 22px;
     width: auto;
 }
@@ -224,13 +224,13 @@ a {
     text-align: center;
 }
 
-.cta__inner {
+.cta-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cta__title {
+.cta-title {
     font-size: 50px;
     font-weight: 600;
     line-height: 60px;
@@ -238,7 +238,7 @@ a {
     margin-bottom: 20px;
 }
 
-.cta__subtitle {
+.cta-subtitle {
     max-width: 460px;
     font-size: 18px;
     font-weight: 400;
@@ -252,14 +252,14 @@ a {
     padding: 80px 0;
 }
 
-.logos__inner {
+.logos-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 48px;
 }
 
-.logos__row {
+.logos-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -267,7 +267,7 @@ a {
     gap: 64px;
 }
 
-.logos__row img {
+.logos-row img {
     max-height: 36px;
     width: auto;
     opacity: 0.85;
@@ -279,7 +279,7 @@ a {
     padding: 40px 0;
 }
 
-.footer__inner {
+.footer-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -287,7 +287,7 @@ a {
     gap: 20px;
 }
 
-.footer__links {
+.footer-links {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
@@ -296,17 +296,17 @@ a {
     color: #2d2d2d;
 }
 
-.footer__links a:hover {
+.footer-links a:hover {
     text-decoration: underline;
 }
 
-.footer__socials img {
+.footer-socials img {
     height: 28px;
     width: auto;
 }
 
 @media (max-width: 768px) {
-    .hero__title {
+    .hero-title {
         font-size: 48px;
         line-height: 58px;
     }
@@ -315,7 +315,7 @@ a {
         width: 100%;
     }
 
-    .cta__title {
+    .cta-title {
         font-size: 36px;
         line-height: 44px;
     }
